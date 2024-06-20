@@ -1,0 +1,99 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.about_conteudo{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.about_img{
+    width: 275px;
+    height: 275px;
+    padding: 0 50px;
+}
+
+.about_texto{
+    font-family: "Fugaz One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    color: #8E8E8E;
+    width: 400px;
+    padding: 0 50px;
+}
+
+.about_titulo{
+    font-size: 36px;
+    color: white;
+}
+
+.reverso{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.alinhamento{
+    text-align: right;
+}
+
+@media(max-width:850px){
+
+    .about{
+        padding-bottom: 3em;
+    }
+
+    .about_conteudo{
+        justify-content: space-evenly;
+    }
+
+    .about_img{
+        width: 225px;
+        height: 225px;
+        padding: 0;
+    }
+
+    .about_texto{
+        font-size: 16px;
+        width: 225px;
+        padding: 0;
+    }
+
+    .about_titulo{
+        font-size: 24px;
+    }
+    
+    .responsividade{
+        padding-right: 30px;
+    }
+}
+
+@media(max-width:550px){
+    .about_conteudo{
+        flex-direction: column;
+    }
+
+    .about_img{
+        width: 225px;
+        height: 225px;
+        padding: 0;
+    }
+
+    .about_titulo{
+        padding-bottom: 1em;
+    }
+
+    .about_texto{
+        padding: 1.5em 0;
+        line-height: 1.2em;
+    }
+
+    .alinhamento{
+        text-align: left;
+    }
+}

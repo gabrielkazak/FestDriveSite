@@ -1,0 +1,146 @@
+.features{
+    width: 100%;
+    height: 750px;
+    padding-top: 150px;
+}
+
+.features_titulo_container{
+    display: flex;
+    justify-content: center;
+}
+
+.features_titulo{
+    text-align: center;
+    width: 450px;
+    height: 100px;
+    background-color: #0E0E0E;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Fugaz One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    border-radius: 30px;
+    box-shadow:8px 5px #A7A7A7;
+}
+
+.features_container{
+    display: flex;
+    padding-top: 3em;
+    justify-content: space-evenly;
+}
+
+.features_caixa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features_subtitulo_caixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0.75em;
+}
+
+.imagem_cinto{
+    width: 60px;
+}
+
+.imagem_volante{
+    width: 100px;
+}
+
+.features_subtitulo{
+    font-size: 24px;
+    font-family: "Fugaz One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    width: 250px;
+    padding-left: 20px;
+}
+
+.features_lista{
+    width: 300px;
+}
+
+.features_lista_item{
+    padding-top: 1em;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(218, 218, 218);
+}
+
+@media(max-width:850px){
+
+    .features{
+        height: 625px;
+    }
+
+    .features_titulo{
+        width: 350px;
+        height: 75px;
+        font-size: 24px;
+        border-radius: 20px;
+    }
+
+    .imagem_cinto{
+        width: 40px;
+    }
+
+    .imagem_volante{
+        width: 70px;
+    }
+
+    .features_subtitulo{
+        font-size: 18px;
+        width: 180px;
+        padding-left: 20px;
+    }
+
+    .features_lista{
+        width: 225px;
+    }
+
+    .features_lista_item{
+        font-size: 18px;
+    }
+
+
+}
+
+@media(max-width:550px){
+
+    .features_titulo{
+        width: 275px;
+        height: 60px;
+        font-size: 20px;
+        border-radius: 15px;
+        box-shadow:6px 3px #A7A7A7;
+    }
+
+    .features_container{
+        flex-direction: column;
+    }
+
+    .features{
+        height: 1150px;
+    }
+
+    .features_caixa{
+        padding-bottom: 3em;
+    }
+
+    .features_subtitulo_caixa{
+        padding-bottom: 1em;
+    }
+
+    .features_lista{
+        border: 2px solid white;
+        padding: 0 15px 20px 15px;
+        border-radius: 30px;
+    }
+}
